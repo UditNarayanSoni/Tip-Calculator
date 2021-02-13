@@ -1,0 +1,50 @@
+<html>
+	
+	<head>
+		
+		<title>Project of JS</title>
+		<link rel="stylesheet" type="text/css" href="project.css">
+	</head>
+
+<body>
+	
+	<!--Container Starts-->
+<div id="container">
+	<h1>Tip Calculator</h1>
+	<div id=calculator>
+	<form>
+	
+		<p>HOW MUCH WAS YOUR BILL?</p>
+		<!--'Placeholder' is a 'Value'-->
+		<p>RS.<input type="text" id="billamt" placeholder="Bill Amount"></p>
+		
+		<p>HOW WAS THE SERVICE</p>
+		
+		<select id="selectTip">
+		<option value="0">-- Choose An Option --</option>
+		<option value="0.05">5&#37; &#45; Nice</option>
+		<option value="0.10">10&#37; &#45; Good</option>
+		<option value="0.15">15&#37; &#45; Excellent</option>
+		</select>
+		<!--Above we Used ASCII codes for Sign of "%"and"&".-->
+
+	</form>
+	
+	<p>HOW MANY PEOPLE ARE SHARING THE TIP ON THE BILL?</p>
+	<input type="text" id="peopleamt" placeholder="Number of people">People<br>
+	<button type="button" id="calculate">CALCULATE</button>
+	
+	</div>
+	<!--Calculator End-->
+	<div id="totaltip">
+	
+		<sup>RS.</sup><span id="tip">0.00</span>
+		<small id="each">Each</small>
+	
+	</div>
+</div>	
+	<!--Container End-->
+	<script type="text/javascript" src="project.js"></script>
+	
+</body>
+</html>

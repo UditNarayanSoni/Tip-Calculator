@@ -1,0 +1,122 @@
+body{
+	font-family:Roboto;
+	background:#cc3d33;
+	/*fallback for old browser*/
+	background:-webkit-linear-gradient(to left, #8E0F60, #1F2C58);	
+	background:linear-gradient(to left, #8E0F60, #1F2C58);
+}
+
+#container{
+	width:400px;
+	height:620px;
+	margin:100px auto;
+	background:#f8f8f8;
+	box-shadow:0 0 5px rgba(255, 0, 0, 10.5);
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+h1{
+	background:#1F1F1F;
+	color:white;
+	margin:0;
+	padding:20px 100px;
+	text-transform:uppercase;
+	font-size:20px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	font-weight:bold;
+}
+
+p{
+	font-weight:bold;
+	padding-left:22px;
+}
+
+form input[type="text"]{
+	width:100px;
+	height:30px;
+}
+
+input{
+	padding-left:5px;
+}
+
+billamt{
+	font-size:14px;
+	color:#red;
+	background-color:#f7f7f7;
+	width:90%;
+	padding:5px 5px 10px 10px;
+}
+
+#billamt:focus{
+	background:#fff;
+	border:3px solid #00CC66;
+	outline:none;
+}
+
+#peopleamt{
+	width:50%;
+	font-size:14px;
+	color:#red;
+	margin-left:25px;
+	background-color:#f7f7f7;
+	padding:5px 5px 10px 10px;
+}
+
+#selecttip{
+	padding:12px 12px 8px 8px;
+	margin-left:25px;
+	font-size:20px;
+}
+
+button{
+	font-family:Arial;
+	text-transform:uppercase;
+	font-weight:bold;
+	display:block;
+	margin:30px auto;
+	background:#006600;
+	width:160px;
+	height:50px;
+	font-size:20px;
+	color:#FFFFFF;
+	border-radius:7px;
+}
+
+button:hover{
+	background:#BF0040;
+	border-bottom-color:#111;
+}
+
+button:active{
+	position:relative;
+	top:1px;
+}
+
+#totaltip{
+	font-size:25px;
+	margin-top:10px;
+	text-align:center;
+}
+
+#totaltip:before{
+	content:"Tip Amount";
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:block;
+}
+
+#totaltip sup{
+	font-size:20px;
+	top:10px;
+}
+
+#totaltip small{
+	font-size:20px;
+	font-weight:bold;
+	display:block;
+}
